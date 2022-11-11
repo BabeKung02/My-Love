@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+nav{
+    background-color: pink;
+}
+
+.gallery{
+    background-image:url(Images/background.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+.navbar-brand{
+    font-family: "Trirong", sans-serif;
+}
+.h1Gallery{
+   font-family: "Sofia", sans-serif;
+}
+.h1content{
+    font-family: "Sofia", sans-serif;
+}
+.nav-item{
+    font-family: "Trirong", sans-serif;
+}
+.fa-heart{
+    color:#f44336;
+    padding:0px -20px;
+}
+.gallery-box img{
+    border-radius: 20px;
+    cursor:pointer;
+    transition: 1.2s;
+    border:solid 1px;
+    position: relative;
+}
+.gallery-box img:hover{
+    transform: scale(1.04);
+}
+p{
+    text-align: justify;
+    font-family: "Trirong", sans-serif;
+    text-indent: 2.5rem;
+    padding: 0px 49px;
+}
+.gallery3{
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%,rgba(255, 255, 255, 0.5) 100%),url(Images/bg2.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.content{
+    background: mistyrose;
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+}
+footer{
+    background-image:linear-gradient(lightblue,mistyrose);
+}
+.gallery2{
+    background-image:linear-gradient(turquoise,lightpink);
+}
+
+
